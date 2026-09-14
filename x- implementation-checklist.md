@@ -1,6 +1,6 @@
-# Implementation Checklist — Full Execution Guide
+# Implementation Checklist
 
-Companion to the main spec (Draft v13). The spec no longer contains its own checklist section (removed in v9) — this document is the sole source of truth for open items. 16 open items, in one place. Three have full step-by-step breakdowns (they're genuine multi-step build/test procedures); the rest are decisions — a choice to record, not a procedure to run. Items 13–16 were added following an external review; item 5 uses Open-WebUI's official `oikb` tool rather than a custom sync script.
+Companion to the main spec. The spec no longer contains its own checklist section (removed in v9) — this document is the sole source of truth for open items. 16 open items, in one place. Three have full step-by-step breakdowns (they're genuine multi-step build/test procedures); the rest are decisions — a choice to record, not a procedure to run. Items 13–16 were added following an external review; item 5 uses Open-WebUI's official `oikb` tool rather than a custom sync script.
 
 ---
 
