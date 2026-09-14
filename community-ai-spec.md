@@ -1,4 +1,5 @@
-# Community AI — Spec Draft v6
+# Community AI — Specifications
+
 ## A Shared Digital Archive with AI Query Access, for a Community Association / Coop
 
 **Companion documents:** [implementation checklist — to be created] · [The Archiver Protocol](archiver-protocol-v2.md), which defines identity, decision-making, and enforcement in full.
