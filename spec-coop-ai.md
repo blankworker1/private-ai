@@ -1,5 +1,6 @@
-# Coop AI — Spec Draft v1
-## Making a Cooperative Corporate Structure AI-Ready, Built on the Same Household/Community Architecture
+# Coop AI — Specifications
+
+## Making a Cooperative Corporate Structure AI-Ready, Built on the Same Home/Community Architecture
 
 **Companion document:** [The Archiver Protocol](archiver-protocol-v2.md) — defines identity, decision-making, and enforcement in full; this spec doesn't repeat that mechanism, it applies it.
 
