@@ -13,8 +13,8 @@
 **What this is:** a private AI platform for a 5-person household — the same thin-client experience as a cloud AI service (Claude, ChatGPT), but running entirely on hardware the household owns, with a shared knowledge base built from deliberately-contributed research rather than automatic ingestion of anyone's private notes.
 
 **Proposed trial scope - two phases:**
-- **Phase 1 (single-user validation):** Buy the GPU, build the Shared AI Brain (Ollama + Open-WebUI), connect via Tailscale, run one person's full stack — 🔴 Personal Layer, Shared Library with at least a few real contributions, AI answering questions grounded in it. Duration: proposed 2–3 weeks.
-- **Phase 2 (household rollout):** Onboard the remaining four accounts, validate the one-at-a-time GPU queue under real simultaneous demand. Only begun once Phase 1's success criteria are met. The status widget is a non-critical nice-to-have for managing remote users' expectations — safe to defer past Phase 2 if time is short; the Shared Library sync script, by contrast, is load-bearing and needs to be solid before Phase 1 even starts (see risks below).
+- **Step 1 (single-user validation):** Buy the GPU, build the Shared AI Brain (Ollama + Open-WebUI), connect via Tailscale, run one person's full stack — 🔴 Personal Layer, Shared Library with at least a few real contributions, AI answering questions grounded in it. Duration: proposed 2–3 weeks.
+- **Step 2 (household rollout):** Onboard the remaining four accounts, validate the one-at-a-time GPU queue under real simultaneous demand. Only begun once Phase 1's success criteria are met. The status widget is a non-critical nice-to-have for managing remote users' expectations — safe to defer past Phase 2 if time is short; the Shared Library sync script, by contrast, is load-bearing and needs to be solid before Phase 1 even starts (see risks below).
 
 **Proposed success criteria for Phase 1**
 - Chat responses return in a reasonable time on real single-file/everyday tasks (benchmark: comparable to the Claude-Sonnet-tie result cited earlier for this hardware tier).
