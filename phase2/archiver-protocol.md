@@ -1,4 +1,5 @@
-# The Archiver Protocol — Draft v2
+# The Archiver Protocol
+
 ## Identity, Decision-Making, and Enforcement — Now Built Around Loomio
 
 **Applies to:** any 6-person node needing formal decisions before canonicalizing content — the Community AI archive's Archivers, or a Coop AI board. Same mechanism, same reasoning; Loomio doesn't care which context it's used in.
