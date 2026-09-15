@@ -1,5 +1,6 @@
-# Local AI Workspace — Spec Draft v14
-## A Three-Layer, Self-Sovereign, Multi-User Household Platform (Android-First)
+# Home AI Workspace — Specifications 
+
+## A Three-Layer, Self-Sovereign, Multi-User Household Platform
 
 **Companion document:** [implementation-checklist.md](implementation-checklist.md) — all open execution items and decisions live there, not here.
 
