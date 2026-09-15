@@ -1,4 +1,4 @@
-# Shape B Integrations — Template for Passive Sensor/Monitoring Data
+# Data Template for Passive Sensor/Monitoring Data
 
 A reusable pattern for adding any external data source (solar, weather, water, anything sensor-shaped) to a node's knowledge base — without ever giving the AI live network reach or execution ability. Applies equally to a Home AI node or a Community AI node; not phase- or project-specific.
 
