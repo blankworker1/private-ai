@@ -2,17 +2,23 @@
 
 **A household that owns its own AI, instead of renting one.**
 
-Five people, one shared brain, zero cloud dependency. private-ai is a self-hosted AI platform built around a simple premise: the same conversational AI experience people already pay $20/month per person for, running instead on hardware the household owns outright — with a knowledge base built from what the household deliberately chooses to teach it, not from silently ingesting everyone's private notes.
+Five people, one shared brain, zero cloud dependency. 
+
+private-ai is a self-hosted AI platform built around a simple premise: the same conversational AI experience people already pay $20/month per person for, running instead on hardware the household owns outright — with a knowledge base built from what the household deliberately chooses to teach it, not from silently ingesting everyone's private notes.
 
 The same underlying architecture — a private per-person layer, a deliberately-curated shared knowledge base, one local AI brain serving everyone — extends beyond the household to two further use cases: a community association archive, and a cooperative's formal governance record. One design, three contexts.
 
 ## Why this, not a subscription
 
 - **No recurring cost.** One hardware purchase, not $100+/month indefinitely for five separate subscriptions.
+  
 - **Privacy by construction, not by policy.** Personal notes are never ingested by the AI — only what's deliberately pushed to a shared library ever becomes part of what the AI knows. No provider terms of service to trust, because there's no provider.
+  
 - **Immune to the failure mode that ruined shared broadband.** A fixed, ACL-enforced account count means there's no path for the customer count to quietly grow past the hardware — because there's no one selling seats.
+  
 - **Backup as a side effect of daily use, not a chore.** The same git-sync habit that keeps a vault current across a phone and a tablet produces a tested backup for free — no separate discipline required, and for the shared library, AI access itself is the incentive: no push, no backup, no AI.
-- **No open ports, ever** — remote access is a private Tailscale network throughout. The one deliberate, separately-scoped exception is a public mirror of already-decided-to-be-public archive content, with no AI assistant on the public side.
+  
+- **No open ports, ever** — remote access is via a private Tailscale network throughout. The one deliberate, separately-scoped exception (in the community /coop version) is a public mirror of already-decided-to-be-public archive content, with no AI assistant on the public side.
 
 ## Project structure — two tracks
 
