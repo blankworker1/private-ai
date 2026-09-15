@@ -1,4 +1,4 @@
-# Hardware — Household Brain AI PC
+# Hardware — Household Layer (Brain AI PC)
 
 Tracks the Phase 1 hardware decision end-to-end: from the spec's original hardware assumption through supplier evaluation, the specific model and configuration ordered, and the setup sequence once it arrives. Companion to `spec-home-ai.md` (§5 Shared AI Brain, §4a Shared Library Backup) and `hardware-tablet.md` (the equivalent record for the five Personal Layer devices) — this document is the live decision record; the spec's §5 cost table stays as the original planning estimate.
 
