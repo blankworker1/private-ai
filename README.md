@@ -20,7 +20,7 @@ One design, three contexts.
 - **Backup as a side effect of daily use, not a chore.** The same git-sync habit that keeps a vault current across a phone and a tablet produces a tested backup for free — no separate discipline required, and for the shared library, AI access itself is the incentive: no push, no backup, no AI.
 - **No open ports, ever** — remote access is a private Tailscale network throughout. The one deliberate, separately-scoped exception is a public mirror of already-decided-to-be-public archive content, with no AI assistant on the public side.
 
-## Project structure — two tracks
+## Project structure — two phases
 
 **Phase 1 — Home AI (active).** A private AI platform for a 5-person household. This is where real hardware decisions, real suppliers, and real setup work are happening right now — see Status below.
 
