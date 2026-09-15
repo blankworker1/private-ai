@@ -2,7 +2,9 @@
 
 **A household that owns its own AI, instead of renting one.**
 
-Five people, one shared brain, zero cloud dependency. private-ai is a self-hosted AI platform built around a simple premise: the same conversational AI experience people already pay $20/month per person for, running instead on hardware the household owns outright — with a knowledge base built from what the household deliberately chooses to teach it, not from silently ingesting everyone's private notes.
+Five people, one shared brain, zero cloud dependency. 
+
+private-ai is a self-hosted AI platform built around a simple premise: the same conversational AI experience people already pay $20/month per person for, running instead on hardware the household owns outright — with a knowledge base built from what the household deliberately chooses to teach it, not from silently ingesting everyone's private notes.
 
 The same underlying architecture — a private per-person layer, a deliberately-curated shared knowledge base, one local AI brain serving everyone — extends beyond the household to two further use cases: a community association archive, and a cooperative's formal governance record. One design, three contexts.
 
