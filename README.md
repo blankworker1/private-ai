@@ -22,15 +22,14 @@ One design, three contexts.
 
 ## Project structure — two tracks
 
-**Track 1 — Home AI (active).** A private AI platform for a 5-person household. This is where real hardware decisions, real suppliers, and real setup work are happening right now — see Status below.
+**Phase 1 — Home AI (active).** A private AI platform for a 5-person household. This is where real hardware decisions, real suppliers, and real setup work are happening right now — see Status below.
 
-**Track 2 — Community AI & Coop AI (deferred).** The same architecture applied to a community association's shared archive, and to a cooperative's formal governance record. Deliberately not started yet — Track 2 waits until Track 1's real-world trial has actually validated the core design.
+**Phase 2 — Community AI & Coop AI (deferred).** The same architecture applied to a community association's shared archive, and to a cooperative's formal governance record. Deliberately not started yet — Track 2 waits until Track 1's real-world trial has actually validated the core design.
 
-*(Note: the Home AI spec itself has its own internal "Phase 1 / Phase 2" — Phase 1 being single-user validation, Phase 2 being full household rollout. That's a nested stage split within Track 1, not the same thing as the Track 1/Track 2 split above.)*
 
 ## Documents
 
-**Root — Track 1 (Home AI, active):**
+**Root — Phase 1 (Home AI, active):**
 
 | File | What it is |
 |---|---|
@@ -40,7 +39,7 @@ One design, three contexts.
 | `hardware-tablet.md` | Live decision record for the five Personal Layer devices — requirements, selection criteria, per-device setup sequence. |
 | `hardware-power.md` | Live decision record for backup power — Phase 1 UPS (decided) and Phase 2 off-grid solar + battery (deferred, sized for a 24-hour outage). |
 
-**`/phase2` — Track 2 (Community AI, Coop AI, and anything sequenced with them — deferred):**
+**`/phase2` — Phase 2 (Community AI, Coop AI, and anything sequenced with them — deferred):**
 
 | File | What it is |
 |---|---|
@@ -67,9 +66,9 @@ Community AI's Network Library ─── Network Library Public Mirror
 
 ## Status
 
-**Track 1 — Home AI:** spec at Draft v15. Hardware finalized with Radiance Systems — CoreAI 16 (RTX 5060 Ti 16GB) with their Turnkey AI Pack, full custom configuration confirmed at no extra cost, quoted at €2,362.31 (VAT included, Italy delivery). Order confirmation sent; awaiting deposit details. Personal Layer trial will run on five existing/random Android devices (not new purchases), a deliberate stress test of the spec's device-compatibility claim. Next concrete action, independent of the order: run the checklist's backup restore test (item 1).
+**Phase 1 — Home AI:** spec at Draft v15. Hardware finalized with Radiance Systems — CoreAI 16 (RTX 5060 Ti 16GB) with their Turnkey AI Pack, full custom configuration confirmed at no extra cost, quoted at €2,362.31 (VAT included, Italy delivery). Order confirmation sent; awaiting deposit details. Personal Layer trial will run on five existing/random Android devices (not new purchases), a deliberate stress test of the spec's device-compatibility claim. Next concrete action, independent of the order: run the checklist's backup restore test (item 1).
 
-**Track 2 — Community AI, Coop AI:** not started. Deferred by design until Track 1's real-world trial validates the core approach.
+**Phase 2 — Community AI, Coop AI:** not started. Deferred by design until Phase 1's real-world trial validates the core approach.
 
 Version numbers in each spec's own header/footer reflect that document's individual draft history — not all documents are at the same maturity; Coop AI is v1, Home AI is v15.
 
