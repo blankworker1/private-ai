@@ -1,4 +1,4 @@
-# Local AI Workspace — Specifications
+# Home AI Workspace — Specifications
 
 ## A Three-Layer, Self-Sovereign, Multi-User Household Platform (Android-First)
 
