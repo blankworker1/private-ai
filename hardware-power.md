@@ -19,18 +19,23 @@ Two different numbers, two different jobs: **peak** sizes the UPS/inverter's con
 
 "Automatic" specifically requires a fast transfer time (sub ~20–30ms) on power loss — not all battery/backup products qualify. A line-interactive UPS satisfies this inherently (typically a few ms). A "solar generator"-class power station needs its UPS/EPS pass-through mode checked explicitly; some switch too slowly and the Brain PC's PSU sees it as a power loss and reboots anyway, defeating the point.
 
-## 3. Phase 1 (Now) — Small UPS, ~30 Minutes
+## 3. Phase 1 — Small UPS, ~30 Minutes
 
 **Decided:** 1500VA/1000W pure sine wave, line-interactive UPS, budget ≤€250 (e.g. CyberPower CP1500PFCLCD-class).
 
 - **Pure sine wave is non-negotiable.** The Brain PC's PSU almost certainly has Active PFC (standard on modern GPU systems) — a cheaper simulated/stepped sine wave UPS can cause a shutdown or reboot at the exact moment it switches to battery.
+  
 - **1000W continuous rating** against a ~390–450W peak gives real headroom, rather than a 750VA/500W unit running near its limit during GPU-active bursts.
+  
 - **Runtime:** rated for ~25 min at 300W in this UPS class; at this setup's lower ~140–160W average, realistically 45–60 min — comfortable margin over the 30-minute target.
+  
 - **Automatic transfer:** inherent to any genuine line-interactive UPS (§2) — no extra selection criteria needed beyond confirming the unit is a real UPS, not a manual-switch battery box.
+  
 - **Before buying:** confirm pure sine wave on the actual listing — not all budget UPS units at similar VA ratings are, despite looking equivalent on spec sheets.
+  
 - **Scope:** covers Brain PC + Starlink Standard + router on its battery-backed outlets. Supersedes the earlier, less-specified ~$190/10–12-minute placeholder from the original checklist item.
 
-## 4. Phase 2 (Deferred) — Off-Grid Solar + Battery
+## 4. Phase 2 — Off-Grid Solar + Battery
 
 **Not started.** A different category of purchase entirely, not an extension of Phase 1's budget.
 
