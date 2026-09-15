@@ -2,7 +2,7 @@
 
 ## A Three-Layer, Self-Sovereign, Multi-User Household Platform
 
-**Companion document:** [implementation-checklist.md](implementation-checklist.md) — all open execution items and decisions live there, not here.
+**Companion documents:** [implementation-checklist.md](implementation-checklist.md) — all open execution items and decisions live there, not here. [hardware-brain-pc.md](hardware-brain-pc.md) and [hardware-tablet.md](hardware-tablet.md) — live hardware procurement records for the Brain PC and the five Personal Layer devices.
 
 ---
 
@@ -92,6 +92,8 @@ Unlike the Personal Layer (§2, dual remotes: GitHub + local-only), the Shared L
 
 ## 5. Shared AI Brain — Server
 
+**Actual Phase 1 hardware selected and ordered — see `hardware-brain-pc.md` for the live decision record (supplier, exact model, finalized configuration, cost).** The illustrative build below is kept as the general planning reference — useful for a future Phase 2/Community AI node or any DIY build — not as current pricing.
+
 **Hardware:** one PC, 16GB VRAM tier (e.g. RTX 4070 Ti Super). Doesn't need to scale with household size — because only one job runs on the GPU at a time (§6), five people share the same single-user hardware spec costed for one.
 
 **Realistic EU cost (Sept 2026, inflated by an ongoing global DRAM shortage — treat as elevated, not baseline):**
@@ -156,4 +158,4 @@ Ollama + Open-WebUI is the dominant self-hosted AI stack in 2026 — mainstream,
 
 ---
 
-*Draft v14 — supersedes v13. Adds §4a: Shared Library backup via a rotated, air-gapped external drive with a script-based (not AI-judgment-based) overdue-backup reminder — closes the off-site redundancy gap that existed between the Personal Layer's dual-remote backup (§2) and the Shared Library's single-copy-on-the-Brain-PC design. Compiled from working discussion, [date: 2026-09-15].*
+*Draft v15 — supersedes v14. Cross-references `hardware-brain-pc.md` and `hardware-tablet.md` as the live Phase 1 procurement records; §5's illustrative build/cost table kept as-is, now explicitly labeled a general planning reference rather than current pricing. Compiled from working discussion, [date: 2026-09-15].*
