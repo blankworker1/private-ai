@@ -74,7 +74,7 @@ Every piece of software this project actually runs on is open source — no exce
 
 ![How the pieces relate — shared architecture feeding Home AI, Community AI, and Coop AI, with Community AI and Coop AI both feeding the Archiver Protocol, and Community AI's Network Library feeding the public Mirror](architecture-diagram.svg)
 
-Green = active now. Dashed = Phase 2, deferred. Yellow = the one deliberate public-facing exception. Worth noticing the Archiver Protocol only feeds Community AI and Coop AI — Home AI has no governance layer, it doesn't need one.
+The Archiver Protocol only feeds Community AI and Coop AI — Home AI has no governance layer, as it doesn't need one.
 
 ## Status
 
