@@ -630,7 +630,7 @@ state the exclusion of warranty; and each file should have at least
 the "copyright" line and a pointer to where the full notice is found.
 
     private-ai — a self-sovereign, self-hosted AI architecture for households, community associations, and cooperatives.
-    Copyright (C) 2026  Carl
+    Copyright (C) 2026  Carl Fitzpatrick 
 
     This program is free software: you can redistribute it and/or modify
     it under the terms of the GNU Affero General Public License as published
