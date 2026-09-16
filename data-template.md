@@ -78,7 +78,7 @@ This covers "how much did we generate," "how healthy is the battery," and "did a
 - **Snapshot:** `/weather/2026-09-15.md`, daily or a few times a day.
 - **Question it answers:** "did it rain this week," "what's the forecast pattern been."
 
-## 4a. Worked Example — Web Archiving (External Reference Material)
+## 5. Worked Example — Web Archiving (External Reference Material)
 
 **Note on scope:** unlike Victron and the weather station, this isn't sensor data — it's what surfaced separately as "human-scale data," which puts its actual *use* in Phase 1 territory (see `spec-home-ai.md` §2), even though the general pattern is documented here alongside the other Shape B examples. The template is track-agnostic by design (§Data Quality Principles); this is that principle in practice.
 
@@ -88,7 +88,7 @@ This covers "how much did we generate," "how healthy is the battery," and "did a
 - **A genuine asymmetry worth knowing, versus the sensor examples:** because this captures *text*, it's immediately and fully processable by Open-WebUI's knowledge base the moment it's pushed — no captioning workaround needed the way images require (`archiver-protocol.md` §5). Text is the one format this pipeline handles natively.
 - **Question it answers:** "what did that article say," "find the piece I saved about X" — retrieval over content that would otherwise have rotted behind a dead link.
 
-## 5. Applying the Template to a New Data Source
+## 6. Applying the Template to a New Data Source
 
 Checklist for any future integration:
 - [ ] **Schema first:** what fields actually matter, biased toward realistic questions rather than everything the source can report? (§3a)
@@ -99,7 +99,7 @@ Checklist for any future integration:
 - [ ] Where does the polling script itself live and run — same node PC as everything else (consistent with the household/Community AI single-PC pattern), a small always-on job alongside the others.
 - [ ] If the schema ever changes, note the version/date of the change (§3a) — don't let it happen silently.
 
-## 6. Rollups — Answering "Over Time" Questions
+## 7. Rollups — Answering "Over Time" Questions
 
 **The gap this closes:** the AI answers Shared Library questions through retrieval — finding the relevant document(s), not computing across them. That's naturally good at "what happened on one day" (find the one file) and naturally bad at "what's the trend over the last year" (would require synthesizing across hundreds of files at the moment the question is asked, a known weak point of retrieval-based systems generally — see the RAG literature's caution against asking retrieval to also do computation).
 
