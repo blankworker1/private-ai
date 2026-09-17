@@ -33,6 +33,30 @@ private-ai has no equivalent setting to check, because there's no equivalent mec
 
 **Deletion is real deletion, not a request.** Remove a file from the Shared Library, let `oikb` sync, and it's gone from what the AI can surface — completely, immediately, with no residual statistical influence, because nothing was ever absorbed into weights in the first place.
 
+## A third model, worth naming explicitly
+
+The comparison above draws a two-way line: a SaaS provider you must trust, or private-ai's Library, which needs no trust because there's no remote party in the loop at all. There's a real third category sitting between them, and it's worth naming rather than leaving the binary framing to look unaware of it â€” **confidential computing cloud** platforms (Tinfoil is the clearest current example), which replace "trust our privacy policy" with "trust our cryptography and our hardware," while still being a remote, paid, vendor-operated service underneath.
+
+**How it works:** specialised GPUs (NVIDIA Hopper/Blackwell in confidential-computing mode, similar approaches from AMD and Intel) run your AI workload inside a hardware-isolated "secure enclave." Data is encrypted in memory and only decrypted inside that boundary â€” in principle invisible even to the cloud host and the platform operator. Cryptographic attestation lets you verify, rather than just trust, that the enclave is running the exact code it claims to be running. That's a genuinely stronger claim than an ordinary SaaS privacy policy: "we promise not to look" becomes "we cryptographically cannot look, and you can check."
+
+**What doesn't change, underneath the stronger guarantee:** it's still someone else's hardware, in someone else's facility, accessed as a paid, ongoing service. The privacy claim now rests on trusting a hardware vendor's implementation of confidential computing and the attestation protocol verifying it correctly â€” a narrower, more technical form of trust than an ordinary SaaS relationship, but trust nonetheless. It doesn't remove the question the way owning the hardware does; it answers the question more rigorously while leaving it a question.
+
+## Three models, side by side
+
+| | Typical SaaS AI | Confidential Computing Cloud | private-ai |
+|---|---|---|---|
+| **Where your data goes** | Provider's servers | Provider's servers (hardware-isolated enclave) | Never leaves your own hardware |
+| **What guarantees privacy** | A policy you agree to | Cryptographic attestation of hardware behaviour | Nothing to guarantee â€” no remote party exists |
+| **What you must trust** | The company, its policy, its future decisions | A hardware vendor's TEE implementation + the attestation chain | Nothing â€” physical absence, not a promise |
+| **Ongoing cost** | Recurring subscription | Recurring, paid usage | One-time (or financed) hardware purchase |
+| **What happens if you stop paying** | Access ends | Access ends | Nothing â€” you already own it |
+
+## Where each genuinely fits
+
+Not every use case is private-ai's use case, worth saying plainly rather than implying otherwise. Confidential computing cloud is the right tool specifically for workloads too large for any home or small-node GPU to run at all, where cloud-scale compute is a hard requirement and strong data-in-use guarantees still matter â€” a case private-ai deliberately doesn't try to serve. private-ai's answer is different in kind, not just degree: for a household or a coop's actual working scale, the question of what to trust doesn't need a stronger answer â€” it needs to stop being a question, because there's no remote system in the loop to trust at all.
+
+---
+
 ## Why "no trust required" is a precise claim, not a slogan
 
 The distinction is structural, not promissory. A SaaS provider saying "we don't train on your data" is a policy sitting on top of infrastructure fully capable of doing exactly that — which is how Anthropic's own 2025 shift happened, and why the safety-flag carve-out exists even for people who'd opted out. There was a mechanism, and a decision was made about how to use it.
@@ -44,5 +68,5 @@ That's what makes upgrading the model a non-event: no new terms of service to re
 **One honest limit, stated plainly rather than smoothed over:** "no trust required" is specific to training and data exposure — it doesn't mean zero trust in anything. The household still trusts that the open-source code is what it claims to be, and trusts its own hardware. Narrow and true is the point, not an unqualified absolute.
 
 ---
+*Addendum drafted [date: 2026-09-17], prompted by review of a confidential-computing cloud platform (Tinfoil) whose own marketing draws the same "policy-based trust vs. verifiable privacy" distinction this document already makes â€” evidence the two-way framing needed a third category named, not a reason to change the existing argument.*
 
-*v1 — first version of this document. [date: 2026-09-16]*
