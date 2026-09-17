@@ -80,6 +80,14 @@ Every piece of software this project actually runs on is open source — no exce
 
 Green = active now. Dashed = Phase 2, deferred. Yellow = the one deliberate public-facing exception. Worth noticing the Archiver Protocol only feeds Community AI and Coop AI — Home AI has no governance layer, it doesn't need one.
 
+## AI landscape — where things live
+
+![AI ecosystem landscape — a household network container holds four states: personal layer (private device vault), individual AI chat (private), Channels (household-shared group chat), and the Shared Library (household-shared documents that feed the AI). The Shared Library connects outward to a separate, public Network Library box, federated across nodes.](ai-landscape-diagram.svg)
+
+Colour marks the visibility tier, not the content type: **gray** = private to one person (Personal Layer, Individual chat), **teal** = shared within the household/node (Channels, Shared Library), **coral** = public across the federation (Network Library). Only one path ever crosses the household boundary — Shared Library content deliberately tagged for the Network Library. Everything else stays inside, reachable only via Tailscale (Phase 1) or Headscale (Phase 2).
+
+This is Phase 1's picture. Once Phase 2 exists, "Household network" becomes one Node among several, with its own Archiver Protocol governance layer — see `phase2/spec-community-ai.md`.
+
 ## Status
 
 **Phase 1 — Home AI:** spec at Draft v20. Hardware finalized with Radiance Systems — CoreAI 16 (RTX 5060 Ti 16GB) with their Turnkey AI Pack, full custom configuration confirmed at no extra cost, quoted at €2,362.31 (VAT included, Italy delivery). Order confirmation sent; awaiting deposit details. Personal Layer trial will run on five existing/random Android devices (not new purchases), a deliberate stress test of the spec's device-compatibility claim. Next concrete action, independent of the order: run the checklist's backup restore test (item 1).
