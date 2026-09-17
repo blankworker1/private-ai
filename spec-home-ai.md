@@ -45,6 +45,7 @@
 **Interaction model — two separate surfaces, no in-app trigger:**
 - **GitJournal** — the markdown notebook/document creator. Plain text, always local, works regardless of network or server status.
 - **Open-WebUI** — text in, text out, same shape as a Claude conversation, reachable as a separate app/browser tab (not a plugin inside GitJournal). Can be grounded in personal uploads or in the household's Shared Library. Moving anything between the two is manual copy-paste, by design — no plugin bridge, so personal notes never depend on server uptime and never risk leaking into anything shared.
+- **Channels — enabled by default.** Open-WebUI ships Channels natively: persistent, shared spaces where multiple household members and the AI participate in the same timeline, @mention-triggered. No extra infrastructure, no build cost — it's a configuration decision, not an engineering one. Household members get it from day one rather than as something discovered later or gated behind Step 2 of the trial. Distinct from Individual Chat (private, 1-to-1) and the Shared Library (documents, not conversation) — see landscape model.
 
 ---
 
