@@ -29,6 +29,8 @@ Headscale (self-hosted, open source) removes it entirely — adopted for Phase 2
 
 ## Software & Data
 
+- **Open-WebUI Channels — enabled by default** Phase 1 — native shared-chat feature, zero extra cost/infrastructure; household gets group AI conversation from day one rather than it being a later discovery. spec-home-ai.md §1a
+
 - **Shape B pattern for any passive data integration** (sensor, web archive, anything) — deterministic script polls, writes a snapshot, `oikb` ingests, AI only ever reads; never live AI tool-access. `phase2/data-template.md`
 - **Image captions required for AI-queryability** — Open-WebUI's knowledge base only processes text; an uncaptioned image is invisible to the AI regardless of which app saved it. `phase2/archiver-protocol.md` §5
 - **Governance: Loomio**, replacing an earlier bespoke voting design — mature, purpose-built cooperative governance software; self-hosted via the official `loomio-deploy` repo, not their paid SaaS. `phase2/archiver-protocol.md` §3
