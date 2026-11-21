@@ -18,7 +18,7 @@ One design, three contexts.
 
 ▶ [Watch on YouTube](https://www.youtube.com/watch?v=Z6_ENp_fO_Y)
 
-*A 4½-minute music video in which a synthetic presenter sings as an AI assistant. It covers the "I" that's only grammar, the genie that follows the letter of every wish, the megaphone with manners, and the line this project is built around: **whoever owns the server writes the story it tells.** Then the refrain: "working as intended". Whose intention?*
+*A 4½-minute music video in which a synthetic presenter sings as an AI assistant. It covers the "I" that's only grammar, the genie that follows the letter of every wish, the megaphone with manners, and the line this project is built around: **whoever owns the server writes the story that it tells.** Then the refrain: "working as intended". Whose intention?*
 
 Most people don't fully understand their AI experience. Every model has trained-in limits and leanings, and nothing in its calm, helpful voice tells you so. private-ai owns the server. How the household also gains ownership, step by step, over the model's knowledge, its behaviour and eventually its defaults is set out in [`model-selection.md`](model-selection.md).
 
