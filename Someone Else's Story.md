@@ -1,7 +1,5 @@
 # Someone Else's Story
 
-Nov 21, 2026 · @Carl
-
 *The cloud is someone else's computer. AI is someone else's story.*
 
 Two short lines, about twenty years apart. The first said that "the cloud" was a nice word for a building full of someone else's machines. The second comes from a song an AI sings about itself: whoever owns the server writes the story it tells.
