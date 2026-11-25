@@ -27,7 +27,7 @@ The eight layers already exist in the Phase 1 stack; the work is making each one
 | Voice & accent | Open-WebUI preset | Compiled into the system prompt; spoken voice later |
 | Costume | Open-WebUI preset | Name and picture, or the plain tilde |
 
-![Every AI is layers: the eight layers with cloud AI and private-ai sliders side by side](img/every-ai-is-layers.png)
+![Every AI is layers: the eight layers with cloud AI and private-ai sliders side by side](every-ai-is-layers.png)
 
 ## Controls by layer
 
@@ -48,7 +48,7 @@ Most controls ride on what Open-WebUI already does; three need custom work. "Bui
 
 The sliders are a friendly way to write the system prompt. They store numbers, the numbers pick sentences, and the sentences are the script.
 
-![Voice & script board: sliders and house rules writing the script live](img/voice-and-script.png)
+![Voice & script board: sliders and house rules writing the script live](voice-and-script.png)
 
 **How it works**
 
@@ -67,7 +67,7 @@ The sliders are a friendly way to write the system prompt. They store numbers, t
 
 Annotations are the household's main way to steer the AI: a note on a specific piece of a reply, routed to the layer that can fix it.
 
-![Chat page: attribute strip, thinking toggle, show working, an annotation in progress and a suggestion](img/chat-page.png)
+![Chat page: attribute strip, thinking toggle, show working, an annotation in progress and a suggestion](chat-page.png)
 
 **The record.** One line per note, kept in `corrections/` in the Shared Library as dated JSONL files:
 
