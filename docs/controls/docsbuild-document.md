@@ -159,3 +159,6 @@ These capabilities are described from general knowledge of Open-WebUI and Ollama
 - [ ] One household script, or one per person?
 - [ ] Who can press Apply on a suggestion that changes the shared script?
 - [ ] How long are personal, unshared notes kept?
+
+- [ ] Mock up the Actor comparison board: same question, two models, each asked twice, side by side
+- [ ] Then stop mocking up: work through the verification list above once the Brain PC is running
